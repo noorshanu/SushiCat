@@ -5,23 +5,18 @@ import Meme from "./sections/Meme";
 import { FaTwitter, FaTelegram } from "react-icons/fa";
 import { IoClose, IoMenu } from "react-icons/io5";
 import Intro from "./sections/Intro";
+import MemeMark from "./sections/MemeMark";
 
 function AppLayout() {
   return (
     <>
       <Navbar />
-      <main className=" pt-2 bg-main">
+      <main className="  bg-main">
+     
         <Hero />
       </main>
-      <div className=" h-[70px] border-t-2 border-b-2 py-4 border-[#751717] mb-2 ">
-        <a
-          href="https://solscan.io/token/nPQTtFaZXWJNCshUAhTh67Vqb2RoGoEr4z8n5fVp9pN"
-          target="_blank"
-          className="my-2 flex justify-center text-base text-center text-white  sm:text-xl"
-        >
-          {" "}
-          Contract : nPQTtFaZXWJNCshUAhTh67Vqb2RoGoEr4z8n5fVp9pN
-        </a>
+      <div className=" h-[70px] border-t-2 border-b-2 py-4 border-[#751717] mb-2 bg-[#f2bcc5d4] ">
+      <MemeMark/>
       </div>
       <div>
         <dl className="h-[50px]" />
@@ -29,7 +24,7 @@ function AppLayout() {
         <dl className="h-[100px]" />
         <Meme />
         <dl className="h-[100px]" />
-        <AboutUs />
+        {/* <AboutUs /> */}
 
         {/* <div className="container-wrapper mt-8">
           <div className=" flex items-center justify-center gap-2">
@@ -54,13 +49,10 @@ function AppLayout() {
               />
 
               <p className=" text-2xl font-sushi-one">Sushi Cat</p>
-              <div className="ml-10 flex justify-center items-center ">
-                <ul className="flex gap-4 ">
-                  <li className="font-sushi-one">Home</li>
-                  <li className="font-sushi-one">How to buy</li>
-                  <li className="font-sushi-one">FAQS</li>
-                </ul>
-              </div>
+            
+            </div>
+            <div>
+               <p>Copyright 2024 SUSHICAT. All Rights Reserved.</p>
             </div>
 
             <div className="mt-8  flex justify-center items-center space-x-6">
@@ -79,7 +71,7 @@ function AppLayout() {
             </div>
           </div>
 
-          <div className="border-b border-[grey] my-5" />
+        
         </div>
       </footer>
     </>

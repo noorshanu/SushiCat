@@ -7,13 +7,13 @@ function Hero() {
          
 
           <div className=" flex justify-between flex-col sm:flex-row items-center ">
-            <div className=" w-full bg-[#f5b0bb] bg-opacity-45 border rounded-lg p-5">
+            <div className=" w-full bg-[#f5b0bbe8]  border rounded-lg p-5 shadow-lg">
               <h1 className=" font-sushi-one text-5xl my-4 text-[#d95a83]">
-                Sushi Cat
+              Welcome to   Sushi Cat  Universe!:
               </h1>
 
               <p className="font-sushi-one text-xl text-black">
-                Welcome to the SushiCat Universe! Embark on a whimsical journey
+               Embark on a whimsical journey
                 through the world of SushiCat, where sushi and cats collide in a
                 delightful fusion of flavor and feline charm. SushiCat isn't
                 just another meme coin; it's a gateway to a universe of culinary
@@ -21,6 +21,17 @@ function Hero() {
                 of sushi-making cats and embark on thrilling adventures in our
                 meow-nificent universe!
               </p>
+
+              <div className=" py-2">
+              <a
+          href="https://solscan.io/token/nPQTtFaZXWJNCshUAhTh67Vqb2RoGoEr4z8n5fVp9pN"
+          target="_blank"
+          className="my-2 flex justify-start text-base  text-black  sm:text-xl"
+        >
+          {" "}
+          Contract : nPQTtFaZXWJNCshUAhTh67Vqb2RoGoEr4z8n5fVp9pN
+        </a>
+              </div>
               <div className="relative z-40 flex items-center justify-start my-4 max-sm:flex-col max-sm:space-y-4 sm:space-x-5">
                 <a
                   href="#"

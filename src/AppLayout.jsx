@@ -50,7 +50,7 @@ function AppLayout() {
                 <a target="_blank" href="https://twitter.com/SushiiCatt5">
                   <FaTwitter />
                 </a>
-                <a target="_blank" href="#">
+                <a target="_blank" href="https://t.me/sushicatso">
                   <FaTelegram />
                 </a>
               </div>

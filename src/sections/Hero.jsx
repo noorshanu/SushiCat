@@ -43,7 +43,7 @@ function Hero() {
                   buy now
                 </a>
                 <a
-                  href="https://twitter.com/SushiiCatt5" target="_blank"
+                  href="https://t.me/sushicatso" target="_blank"
                   className="text-base py-2 uppercase font-sushi-one px-10 rounded-full bg-gradient-to-b from-[#e47369] to-[#f1a3ff] shadow-lg shadow-black/40 text-black  font-bold border border-yellow"
                 >
                   join telegram

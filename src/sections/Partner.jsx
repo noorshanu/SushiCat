@@ -13,7 +13,7 @@ function Partner() {
 
         </div>
         <div className=" grid grid-cols-2 sm:grid-cols-4 items-center gap-3 bg-[#f5b0bbe8] rounded-2xl py-4 px-6">
-            <img src="part/bsc.png" alt="" className=" w-[180px] h-auto " />
+            <img src="part/bsc.svg" alt="" className=" w-[180px] h-auto " />
           
             <img src="part/img2.png" alt="" className=" w-[180px] h-auto " />
             <img src="part/img3.png" alt="" className=" w-[180px] h-auto " />

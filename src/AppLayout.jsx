@@ -6,12 +6,14 @@ import { FaTwitter, FaTelegram } from "react-icons/fa";
 import { IoClose, IoMenu } from "react-icons/io5";
 import Intro from "./sections/Intro";
 import MemeMark from "./sections/MemeMark";
+import RoadmapCards from "./components/RoadmapCards";
 
 function AppLayout() {
   return (
     <>
-      <Navbar />
+   
       <main className="  bg-main">
+      <Navbar />
      
         <Hero />
       </main>
@@ -21,10 +23,12 @@ function AppLayout() {
       <div>
         <dl className="h-[50px]" />
         <Intro />
-        <dl className="h-[100px]" />
+        {/* <dl className="h-[100px]" />
         <Meme />
-        <dl className="h-[100px]" />
+        <dl className="h-[100px]" /> */}
         {/* <AboutUs /> */}
+
+    
 
         {/* <div className="container-wrapper mt-8">
           <div className=" flex items-center justify-center gap-2">

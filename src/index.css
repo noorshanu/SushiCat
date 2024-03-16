@@ -64,3 +64,9 @@
   align-items: flex-center;
   justify-content: space-between;
 }
+
+@media (max-width:768px) {
+  .big-info__inner {
+  flex-direction: column;
+  }  
+}

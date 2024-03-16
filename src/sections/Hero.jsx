@@ -3,34 +3,36 @@ function Hero() {
     <section className=" py-6">
       <div className="container-wrapper">
         <div className="relative z-50">
-
-         
-
           <div className=" flex justify-between flex-col sm:flex-row items-center ">
             <div className=" w-full bg-[#f5b0bbe8]  border rounded-lg p-5 shadow-lg">
-              <h1 className=" font-sushi-one text-5xl my-4 text-[#d95a83]">
-              Welcome to   Sushi Cat  Universe!:
+              <h1 className=" font-sushi-one text-4xl my-4 text-[#d95a83]">
+                Welcome to Sushi Cat Universe ! 🍣:
               </h1>
 
               <p className="font-sushi-one text-xl text-black">
-               Embark on a whimsical journey
-                through the world of SushiCat, where sushi and cats collide in a
-                delightful fusion of flavor and feline charm. SushiCat isn't
-                just another meme coin; it's a gateway to a universe of culinary
-                adventures and virtual delights. Join us as we explore the realm
-                of sushi-making cats and embark on thrilling adventures in our
-                meow-nificent universe!
+                Welcome to the world of Sushi Cat on Solana – the purrfect blend
+                of Japanese charm, meme magic, and delicious crypto goodness!
+              </p>
+
+              <p className=" font-sushi-one text-xl text-black py-1">
+                Sushi Cat isn't just your ordinary feline; this adorable kitty
+                is on a mission to satisfy appetites and make holders grow
+                bigger than a sumo wrestler on a sushi binge! With each tasty
+                morsel devoured, Sushi Cat's hunger grows, and so does the
+                community's excitement! Join our vibrant community of food
+                lovers, crypto enthusiasts, and sushi cat meme fans for a
+                purrfectly fun ride!
               </p>
 
               <div className=" py-2">
-              <a
-          href="https://solscan.io/token/nPQTtFaZXWJNCshUAhTh67Vqb2RoGoEr4z8n5fVp9pN"
-          target="_blank"
-          className="my-2 flex justify-start text-base  text-black  sm:text-xl"
-        >
-          {" "}
-          Contract : nPQTtFaZXWJNCshUAhTh67Vqb2RoGoEr4z8n5fVp9pN
-        </a>
+                <a
+                  href="https://solscan.io/token/nPQTtFaZXWJNCshUAhTh67Vqb2RoGoEr4z8n5fVp9pN"
+                  target="_blank"
+                  className="my-2 flex justify-start text-base  text-black  sm:text-xl"
+                >
+                  {" "}
+                  Contract : nPQTtFaZXWJNCshUAhTh67Vqb2RoGoEr4z8n5fVp9pN
+                </a>
               </div>
               <div className="relative z-40 flex items-center justify-start my-4 max-sm:flex-col max-sm:space-y-4 sm:space-x-5">
                 <a

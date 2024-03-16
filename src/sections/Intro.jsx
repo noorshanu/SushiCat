@@ -1,17 +1,37 @@
 import React from "react";
+import RoadmapCards from "../components/RoadmapCards";
 
 const Intro = () => {
   return (
     <>
-      <div className=" container-wrapper  px-4">
-        <div className=" big-info__inner items-center px-4 border-[#fff] border ">
-        <div>
-            <img src="images/rocket-sushi.png" alt="" className=" h-[350px]" />
+      <div className=" container-wrapper  px-4 ">
+
+        <h2 className="font-sushi-one text-5xl my-2 text-[#d95a83] text-center">
+          Our Products
+        </h2>
+        
+        <div className=" big-info__inner px-4 border-[#fff] border py-2 ">
+        
+          <div className=" max-w-xl">
+          <p className="font-medium font-sushi-one text-3xl text-black  py-2">
+        Sushi Cat: The cutest meme coin on Solana, serving up sushi-inspired crypto fun!
+        </p>
+           <h1 className=" text-2xl py-3  font-sushi-one text-black  font-medium">
+           1. Sushi NFTs: Dive into a world of digital sushi art with our exclusive collection of Sushi NFTs. Rare and delicious – just like the real thing!
+           </h1>
+
+           <h1 className=" text-2xl py-3 font-sushi-one  text-black font-medium">
+           2. Trading Bot: Our trading bot helps you navigate the crypto market while you enjoy your sushi. Never miss out on the hottest trends again!
+
+           </h1>
+
+           <h1 className=" text-2xl py-3 font-sushi-one text-black font-medium">
+           3. 24/7 Growing Community: Join our expanding community and let's grow together while munching on sushi!
+           </h1>
           </div>
-          <div>
-            <h1 className=" max-w-3xl text-2xl font-medium">
-            Welcome to the realm of SushiCat, where the worlds of sushi and cats collide in a delightful blend of flavor and finance! SushiCat isn't your average meme coin; we're driven by a mission to reign supreme in the meme realm of Solana. Experience boundless excitement, ride the waves of hype with every surge, and enjoy the ultimate perk: a 0% fee on all purchases for our cherished holders! Join us in the adventure-filled journey towards becoming the crowned ruler of the crypto kingdom, one whisker at a time.
-            </h1>
+
+          <div className=" w-full sm:w-[500px]">
+           <RoadmapCards/>
           </div>
 
          

@@ -47,7 +47,7 @@ function AppLayout() {
                <p className="font-sushi-one">Copyright 2024 SUSHICAT. All Rights Reserved.</p>
             </div>
               <div className="flex items-center space-x-4 text-xl [&_a:hover]:opacity-70">
-                <a target="_blank" href="#">
+                <a target="_blank" href="https://twitter.com/SushiiCatt5">
                   <FaTwitter />
                 </a>
                 <a target="_blank" href="#">

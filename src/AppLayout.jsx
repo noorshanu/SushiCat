@@ -1,12 +1,10 @@
 import Navbar from "./components/Navbar";
-import AboutUs from "./sections/AboutUs";
 import Hero from "./sections/Hero";
-import Meme from "./sections/Meme";
 import { FaTwitter, FaTelegram } from "react-icons/fa";
-import { IoClose, IoMenu } from "react-icons/io5";
 import Intro from "./sections/Intro";
 import MemeMark from "./sections/MemeMark";
-import RoadmapCards from "./components/RoadmapCards";
+import Partner from "./sections/Partner";
+
 
 function AppLayout() {
   return (
@@ -23,6 +21,10 @@ function AppLayout() {
       <div>
         <dl className="h-[50px]" />
         <Intro />
+
+        <div>
+          <Partner/>
+        </div>
      
       </div>
       <footer className=" w-full pb-8 ">

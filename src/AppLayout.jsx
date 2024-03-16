@@ -56,7 +56,7 @@ function AppLayout() {
             
             </div>
             <div>
-               <p>Copyright 2024 SUSHICAT. All Rights Reserved.</p>
+               <p className="font-sushi-one">Copyright 2024 SUSHICAT. All Rights Reserved.</p>
             </div>
 
             <div className="mt-8  flex justify-center items-center space-x-6">

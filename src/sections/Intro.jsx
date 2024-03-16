@@ -6,7 +6,7 @@ const Intro = () => {
     <>
       <div className=" container-wrapper  px-4 ">
 
-        <h2 className="font-sushi-one text-5xl my-2 text-[#d95a83] text-center">
+        <h2 className="font-sushi-one text-5xl my-2 text-[#ffffff] text-center">
           Our Products
         </h2>
         
